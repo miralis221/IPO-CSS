@@ -1,0 +1,74 @@
+@import url("Sci-Fi.css");
+
+:root{
+    --defaultBackgournd:#CCCCCC;
+    --headerBackground:#111111;
+    --sectionBackground:#777777;
+    --subsectionBackground:#E7D291;
+    
+    --headerColor:#FFDD03;
+    --titleColor:#FFDD03;
+    --subsectionTitleColor:#FFFFFF;
+    --textColor:#FFFFFF;
+    --subsectionTextColor:#000000;
+    
+    --titleFont:"Century";
+    --textFont:"Century";
+}
+
+/*Fondo*/
+html{
+	background-color: var();
+}
+
+#top{
+	background-color: var();
+}
+
+.sectio{
+	background-color: var();
+}
+
+.need, .sbsection{
+	background-color: var();
+}
+
+#top > a:link, #top > a:visited {
+  color: var(--headerColor);
+}
+
+.section_title{
+    color: var(--titleColor);
+}
+.subsection_title{
+    color: var(--subsectionTitleColor);
+}
+
+p, ol{
+    color: var(--textColor);
+}
+
+p.need_value:nth-child(7), p.need_value:nth-child(5), .subsection_text{
+    color: var(--subsectionTextColor);
+}
+
+/*Font*/
+#top{
+    font-weight: bold;
+    font-family: var(--titleFont), arial;
+}
+
+.section_title, .subsection_title{
+    font-family: var(--titleFont), arial;
+}
+
+.need_title.main, .need_value.main, .need_title, p.need_value:nth-child(5){
+    font-size: 140%;
+    font-weight: normal;
+    font-family: var(--titleFont), arial;
+}
+
+p, ol{
+  text-rendering: optimizeLegibility;
+  font-family: var(--textFont), sans-serif;
+}

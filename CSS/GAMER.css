@@ -1,0 +1,20 @@
+/* Palette color codes */
+
+
+/* Palette URL: http://paletton.com/#uid=12B0u0kihNr7hYjdkTrmwGdqQyB */
+
+@import url("GAMER.css");
+@font-face {
+    font-family: 'game';
+    src: url('FUENTES/PRICEDOW.TTF');
+}
+
+html {
+    background-color: #4e4e5c;
+    padding: 150px;
+    font-family: 'game';
+}
+
+#top {
+    background-color: rgb(128, 88, 146);
+}
