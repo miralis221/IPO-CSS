@@ -1,20 +1,150 @@
 /* Palette color codes */
 
 
-/* Palette URL: http://paletton.com/#uid=12B0u0kihNr7hYjdkTrmwGdqQyB */
+/*https://paletton.com/#uid=63x0u0kllllaFw0g0qFqFg0w0aF*/
 
 @import url("GAMER.css");
-@font-face {
-    font-family: 'game';
-    src: url('FUENTES/PRICEDOW.TTF');
+html {
+    background-image: url("../la_pelicula-analisis/936825.jpg");
+    font-size: 16px;
 }
 
-html {
-    background-color: #4e4e5c;
-    padding: 150px;
-    font-family: 'game';
+@media screen and (min-with: 320px) {
+    html {
+        font-size: calc(16px + 6 * ((100vw - 320px)/680));
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    html {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-size: 22px;
+    }
 }
 
 #top {
-    background-color: rgb(128, 88, 146);
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    font-size: 100%;
+    position: fixed;
+    display: inline;
+    background-color: rgb(19, 19, 19);
+}
+
+#top a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(170, 121, 57);
+}
+
+#top a:hover {
+    background-color: rgb(41, 79, 109);
+}
+
+#Sinopsis h2 {
+    color: #0367A6;
+    padding: 100px;
+    font-size: 5vw;
+    text-align: center;
+}
+
+#Sinopsis p {
+    text-align: justify;
+    font-size: larger;
+}
+
+#Necesidades h2.section_title {
+    color: #03C34E;
+    font-size: 5vw;
+    text-align: center;
+}
+
+#Necesidades p {
+    text-align: justify;
+    font-size: larger;
+}
+
+.need {
+    padding-left: 20px;
+    padding-right: 25px;
+    background-color: transparent;
+}
+
+.need hr {
+    display: none;
+    visibility: hidden;
+}
+
+.need h3.need_title_main {
+    text-align: right;
+    right: 0;
+    color: steelblue;
+    border-bottom: 5px outset rgb(99, 133, 167);
+    border-right: 5px outset rgb(99, 133, 167);
+    border-radius: 10px;
+    font-size: 3vw;
+}
+
+.need h2.need_value_main {
+    text-align: left;
+    left: 0;
+    color: slategrey;
+    font-size: 2.5vw;
+}
+
+.need h3.need_title,
+p.need_value {
+    color: green;
+}
+
+.need iframe.media {
+    position: relative;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+#Tecnologias {
+    padding: 25px 100px;
+    padding-right: 10px;
+}
+
+#Tecnologias p {
+    text-align: justify;
+    font-size: larger;
+}
+
+#Impacto {
+    padding: 25px 100px;
+    padding-right: 10px;
+}
+
+#Impacto p {
+    text-align: justify;
+    font-size: larger;
+}
+
+#Referencias {
+    padding: 25px 100px;
+    padding-right: 10px;
+}
+
+#Referencias p {
+    text-align: justify;
+    font-size: larger;
+}
+
+p,
+ol {
+    color: white;
+    text-rendering: optimizeLegibility;
 }
