@@ -3,10 +3,19 @@
 
 /*https://paletton.com/#uid=63x0u0kllllaFw0g0qFqFg0w0aF*/
 
-@import url("GAMER.css");
+@import url("gadgets.css");
 html {
     background-image: url("../la_pelicula-analisis/936825.jpg");
     font-size: 16px;
+    padding: 125px;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: "Roboto", "Arial", "sans-serif";
 }
 
 @media screen and (min-with: 320px) {
@@ -30,7 +39,7 @@ html {
     padding: 0;
     position: -webkit-sticky;
     position: sticky;
-    bottom: 0;
+    top: 0;
     font-size: 100%;
     position: fixed;
     display: inline;
@@ -50,7 +59,7 @@ html {
 }
 
 #Sinopsis h2 {
-    color: #0367A6;
+    color: rgb(170, 121, 57);
     padding: 100px;
     font-size: 5vw;
     text-align: center;
@@ -62,7 +71,7 @@ html {
 }
 
 #Necesidades h2.section_title {
-    color: #03C34E;
+    color: rgb(170, 121, 57);
     font-size: 5vw;
     text-align: center;
 }
@@ -70,11 +79,10 @@ html {
 #Necesidades p {
     text-align: justify;
     font-size: larger;
+    font: 1em sans-serif;
 }
 
 .need {
-    padding-left: 20px;
-    padding-right: 25px;
     background-color: transparent;
 }
 
@@ -100,47 +108,70 @@ html {
     font-size: 2.5vw;
 }
 
-.need h3.need_title,
+.need h3.need_title {
+    color: white;
+}
+
 p.need_value {
     color: green;
 }
 
 .need iframe.media {
-    position: relative;
+    width: 580px;
+    height: 300px;
+}
+
+.need img.media {
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
+    width: 580px;
+    height: 300px;
 }
 
-#Tecnologias {
-    padding: 25px 100px;
-    padding-right: 10px;
+#Tecnologias h2 {
+    color: rgb(170, 121, 57);
+    padding: 100px;
+    font-size: 5vw;
+    text-align: center;
+}
+
+#Tecnologias h3 {
+    color: rgb(141, 64, 255);
+    font-size: 2vw;
 }
 
 #Tecnologias p {
     text-align: justify;
     font-size: larger;
+    font: 1em sans-serif;
 }
 
-#Impacto {
-    padding: 25px 100px;
-    padding-right: 10px;
+#Impacto h2 {
+    color: rgb(170, 121, 57);
+    padding: 100px;
+    font-size: 5vw;
+    text-align: center;
 }
 
 #Impacto p {
     text-align: justify;
     font-size: larger;
+    font: 1em sans-serif;
 }
 
-#Referencias {
-    padding: 25px 100px;
-    padding-right: 10px;
+#Referencias h3 {
+    color: rgb(170, 121, 57);
+    padding: 50px;
+    font-size: 4vw;
+    text-align: center;
 }
 
 #Referencias p {
     text-align: justify;
     font-size: larger;
+    font: 1em sans-serif;
 }
 
 p,

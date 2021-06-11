@@ -1,0 +1,184 @@
+    @import url("modo_noche.css");
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display:ital@1&display=swap');
+    * {
+        box-sizing: border-box !important;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+        color: #666666;
+        font-size: 2vh;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Playfair Display', serif;
+        line-height: 1.80857;
+        font-weight: normal;
+        overflow-x: hidden;
+        background-color: #333;
+    }
+    /* Add a black background color to the top navigation */
+    
+    #top {
+        background-color: #333;
+        position: -webkit-sticky;
+        position: sticky;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    /* Style the links inside the navigation bar */
+    
+    #top a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 1.837270341207349vh 2.099737532808399vh;
+        text-decoration: none;
+        font-size: 2.2309711286089238vh;
+    }
+    /* Change the color of links on hover */
+    
+    #top a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    /* Add a color to the active/current link */
+    
+    #top a[href="#Referencias"] {
+        float: right;
+    }
+    
+    #Sinopsis {
+        margin-top: 30vh;
+    }
+    
+    #Sinopsis h2 {
+        font-size: 10vh;
+        text-align: center;
+    }
+    
+    #Sinopsis p {
+        padding-right: 5vw;
+        padding-left: 5vw;
+        color: whitesmoke;
+    }
+    
+    .to_top {
+        font-size: large;
+        text-align: center;
+    }
+    
+    #Necesidades {
+        margin-top: 30vh;
+    }
+    
+    #Necesidades h2.section_title {
+        padding: 0;
+        text-align: center;
+        font-size: 10vh;
+    }
+    
+    #Necesidades p.section_text {
+        text-align: justify;
+        display: grid;
+        font-size: 2.5vh;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        color: whitesmoke
+    }
+    
+    .need {
+        margin-bottom: 5vh;
+        text-align: center;
+    }
+    
+    .need h3.need_title_main {
+        font-size: 3vh;
+    }
+    
+    .need h3.need_title {
+        font-size: 3vh;
+        text-align: left;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    
+    .need h2 {
+        font-size: 3vh;
+    }
+    
+    .need p {
+        color: whitesmoke;
+        font-size: 2.5vh;
+        text-align: justify;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    
+    .need iframe {
+        width: 60vh;
+        height: 50vh;
+        align-self: center;
+    }
+    
+    .need img {
+        width: 60vh;
+        height: 50vh;
+        align-self: center;
+    }
+    
+    #Tecnologias {
+        margin-top: 30vh;
+    }
+    
+    #Tecnologias h2 {
+        text-align: center;
+        font-size: 10vh;
+    }
+    
+    #Tecnologias p {
+        font-size: 2.5vh;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        color: whitesmoke
+    }
+    
+    .subsection h3 {
+        font-size: 5vh;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    
+    .subsection p {
+        font-size: 2.5vh;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        color: whitesmoke
+    }
+    
+    #Impacto {
+        margin-top: 50vh;
+    }
+    
+    #Impacto h2 {
+        font-size: 10vh;
+        text-align: center;
+    }
+    
+    #Impacto p {
+        font-size: 2.5vh;
+        text-align: justify;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        color: whitesmoke
+    }
+    
+    #Referencias {
+        margin-top: 30vh;
+        background-color: #666666;
+        color: deepskyblue;
+    }
+    
+    #Referencias h3 {
+        font-size: 7vh;
+        text-align: right;
+    }
